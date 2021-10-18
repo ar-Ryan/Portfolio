@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    -ms-overflow-style: none;
+}
+
+nav{
+    background-color: rgb(34, 34, 34);
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 400;
+    font-family: 'Rubik';
+}
+
+
+.nav-list{
+    display: flex;
+}
+
+.name-heading{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navlistbutt{
+    padding: 20px 20px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+    color: white;
+    text-decoration: none;
+}
+
+.navlistbutt:hover{
+    color: rgb(121, 121, 121);
+}
+
+
+.contact-btn{
+    background-color: rgb(82, 186, 204);
+    border: none;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 3px 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    flex-grow: 0;
+}
+
+.contactList{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8vh;
+    background-color: rgb(255, 133, 133);
+    justify-content: space-around;
+    transform: all ease 0.3s;
+}
+
+.contactsvg{
+    padding: 10px;
+}
+
+.contactsvg:hover{
+    background-color: rgb(253, 167, 167);
+}
+
+
+
+#aboutPage{
+    height: 689px;
+    background-image: url(About2.png);
+    background-size: cover;
+}
+
+.selected{
+    background-color: rgb(78, 78, 78);
+}
+
+.about{
+    padding-top: 30vh;
+    margin-left: 20vw;
+    font-family: 'Francois Ones', sans-serif;
+    font-size: 1.7rem;
+}
+
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Francois Ones', sans-serif;
+    margin-top: 5vh;
+}
+
+.flex-item{
+    width: 50vw;
+    height: 20vh;
+    background-color: rgb(255, 145, 145);
+    border-radius: 10px;
+    margin: 15px;
+    border: 2px black solid;
+}
+
+.flex-item h1,p{
+    padding: 10px 10px;
+}
+
+
+.playbtn{
+    width: 30px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.codesnip{
+    width: 30px;
+    margin: 10px;
+    background-color: white;
+}
+
+.Project-bkgrnd{
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+.blog-container{
+    display: flex;
+    margin-top: 10vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog-item{
+    width: 32vw;
+    height: 35vh;
+    background-color: rgb(255, 145, 145);
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-family: 'Francois Ones', sans-serif;
+    margin: 1rem 0;
+}
+
+.blogBtn{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 30px;
+    position: relative;
+    top: 1.5rem;
+    transition: all ease 0.3s;
+}
+
+.blogBtn:hover{
+    color: black;
+    background-color: white;
+}
+
+
+
+#contact-div button:focus + ul{
+    opacity: 1;
+    pointer-events: all;
+}
+
+
+
